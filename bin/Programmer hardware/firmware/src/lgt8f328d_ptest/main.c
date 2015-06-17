@@ -94,9 +94,7 @@ int main(void)
 
 			check_eop();
 
-			testif_superon();
 			testif_fuse_write(s_ch, dwVar); 
-			testif_superoff();
 		}
 		else if(s_ch == CMD_FUSE_VERIFY)
 		{
@@ -107,9 +105,7 @@ int main(void)
 
 			check_eop();
 
-			testif_superon();
 			s_ch = testif_fuse_verify(s_ch, dwVar);
-			testif_superoff();
 
 			DrvUSART_SendChar(s_ch);
 		}
