@@ -16,17 +16,9 @@ namespace MICS8S_Programmer
         public const byte CMD_PAGE_VERIFY2 = 0x75;
         public const byte CMD_FUSE_PROG = 0x62;
         public const byte CMD_FUSE_VERIFY = 0x72;
-        public const byte CMD_MISC_TEST = 0x82;
-        public const byte CMD_OCC_WRITE = 0x84;
-        public const byte CMD_OCC_READ = 0x94;
 
         public const byte CMD_CTLS = 0xa0;
-        public const byte CMD_VPPON = 0x00;
-        public const byte CMD_VPPOFF = 0x11;
-        public const byte CMD_MCU_RON = 0x22;
-        public const byte CMD_MCU_ROFF = 0x33;
         public const byte CMD_READ_ID = 0x44;
-        public const byte CMD_MCU_RUN = 0x55;
         public const byte CMD_BASIC = 0xff;
     }
 
